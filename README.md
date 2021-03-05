@@ -1,4 +1,4 @@
-"24789-Coursework-CMU" 
+"24789 Deep learning for engineers" 
 
-Projects done as a part of assignments for 24789 Deep learning for engineers.
+Projects done as a part of 24789 Deep learning for engineers coursework at CMU, Pittsburgh.
 
