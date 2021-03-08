@@ -176,10 +176,11 @@ def main():
     num_labels = 10 #  i.e. 0, 1, 2, 3, ..., 9, since mnist has 10 classes.
     image_pixels = image_size * image_size
     
-    
-    hiddens = [128,128,64]
+    # create hidden layes list, the list length should be equal to number of layers and the numbers should correspond to number of hidden neurons in each layer.
+    hiddens = [128,128,64]# this gives 3 hidden layes of size 128,128 and 64 respectively
     
     #since cross entropy is used the last activation layer should be identity.
+    # size of activation list should be equal to len(hidden)+1 with last layer as identity for cross entrpoy
     activations = [Sigmoid(), Tanh(), Sigmoid(), Identity()]
     lr = 0.1
     num_epochs = 100
