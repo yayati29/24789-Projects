@@ -1,4 +1,6 @@
 Implemetation of neural netwrok framework with numpy.
+
+
 Structure: 
 activations.py contains the activation class, with sigmoid, tanh and identity activation functions.
 criterion.py contains the SoftmaxCrossEntropy class to calculate loss.
